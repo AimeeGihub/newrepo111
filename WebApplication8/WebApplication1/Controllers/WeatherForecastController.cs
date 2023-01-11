@@ -7,7 +7,7 @@ public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
     {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "aaa"
     };
 
     private readonly ILogger<WeatherForecastController> _logger;
@@ -29,6 +29,8 @@ public class WeatherForecastController : ControllerBase
             NewProperty2 = Summaries[Random.Shared.Next(Summaries.Length)],
             NewProperty3 = Summaries[Random.Shared.Next(Summaries.Length)],
             NewProperty4 = Summaries[Random.Shared.Next(Summaries.Length)],
+            NewProperty5 = Summaries[Random.Shared.Next(Summaries.Length)],
+            NewProperty6 = Summaries[Random.Shared.Next(Summaries.Length)],
         })
         .ToArray();
     }
