@@ -31,7 +31,6 @@ public class WeatherForecastController : ControllerBase
             NewProperty4 = Summaries[Random.Shared.Next(Summaries.Length)],
             NewProperty5 = Summaries[Random.Shared.Next(Summaries.Length)],
             NewProperty6 = Summaries[Random.Shared.Next(Summaries.Length)],
-            NewProperty7 = Summaries[Random.Shared.Next(Summaries.Length)],
         })
         .ToArray();
     }
